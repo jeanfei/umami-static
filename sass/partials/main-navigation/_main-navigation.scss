@@ -1,0 +1,27 @@
+.main-navigation {
+  font-size: $main-navigation-size;
+  line-height: $main-navigation-line-height;
+  
+  .main-navigation__item {
+    display: inline-block;
+    margin: 0 1em;
+  } 
+  
+  .main-navigation__link {
+    color: $color-black;
+    padding: 0.3em 0;
+    text-decoration: none;
+
+    &--active {
+      border-bottom: 1px solid $color-portland-orange;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      color: $color-portland-orange;    
+      text-decoration: none;  
+      border-bottom: 1px solid $color-portland-orange;      
+    }
+  } 
+}
