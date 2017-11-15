@@ -1,0 +1,54 @@
+.recipe-teaser {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  border: 1px solid #FCECE7;
+  
+  
+  &__inner {
+    width: 85%;
+    margin: 1em auto;
+    
+    p {
+      margin: 0.1em;
+    }
+  }
+  
+  &__title {
+    color: $color-black;
+    font-size: 2.3rem;      
+  }
+  
+  &__see-more {
+    font-size: $base-font-size;
+    color: $color-pine-green;
+  }
+  
+  a {
+    color: $color-dim-gray;
+    text-decoration: none;
+    
+    &:focus,
+    &:hover,
+    &:active {
+      // .recipe-teaser__difficulty {
+        //   color: $color-dim-gray;   
+        //   text-decoration: none;        
+        // }
+        
+        color: $color-dim-gray;
+        text-decoration: none;  
+        // border-bottom: 1px solid $color-portland-orange;      
+        
+        .recipe-teaser__title {
+          text-decoration: underline;
+        }
+        
+        .recipe-teaser__see-more {
+          text-decoration: underline;
+          color: $color-candy;
+        }
+        
+      }
+    } 
+  }
+  
