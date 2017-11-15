@@ -1,0 +1,35 @@
+{
+  "name": "umami-static",
+  "version": "0.0.1",
+  "description": "Umami static",
+  "main": "src/index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanfei/umami-static.git"
+  },
+  "keywords": [
+    "umami",
+    "contenta"
+  ],
+  "author": "Jean-Fei Taing",
+  "bugs": {
+    "url": "https://github.com/jeanfei/umami-static/issues"
+  },
+  "homepage": "https://github.com/jeanfei/umami-static#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
