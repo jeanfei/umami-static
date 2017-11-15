@@ -145,7 +145,7 @@ Author's custom styles
   clear: both; }
 
 .main-navigation {
-  font-size: 2rem;
+  font-size: 2.0rem;
   line-height: 1.2; }
   .main-navigation .main-navigation__item {
     display: inline-block;
@@ -160,6 +160,33 @@ Author's custom styles
       color: #ff6138;
       text-decoration: none;
       border-bottom: 1px solid #ff6138; }
+
+.recipe-teaser {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  border: 1px solid #FCECE7; }
+  .recipe-teaser__inner {
+    width: 85%;
+    margin: 1em auto; }
+    .recipe-teaser__inner p {
+      margin: 0.1em; }
+  .recipe-teaser__title {
+    color: #000000;
+    font-size: 2.3rem; }
+  .recipe-teaser__see-more {
+    font-size: 1.6rem;
+    color: #00836d; }
+  .recipe-teaser a {
+    color: #5f635d;
+    text-decoration: none; }
+    .recipe-teaser a:focus, .recipe-teaser a:hover, .recipe-teaser a:active {
+      color: #5f635d;
+      text-decoration: none; }
+      .recipe-teaser a:focus .recipe-teaser__title, .recipe-teaser a:hover .recipe-teaser__title, .recipe-teaser a:active .recipe-teaser__title {
+        text-decoration: underline; }
+      .recipe-teaser a:focus .recipe-teaser__see-more, .recipe-teaser a:hover .recipe-teaser__see-more, .recipe-teaser a:active .recipe-teaser__see-more {
+        text-decoration: underline;
+        color: #cc2a00; }
 
 /* switching to border-box model for all elements */
 html {

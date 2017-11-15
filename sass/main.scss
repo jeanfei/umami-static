@@ -89,7 +89,8 @@ Author's custom styles
 @import 'config/mixins';
 @import 'config/variables';
 @import 'utilities/helpers';
-@import 'partials/main-navigation/main-navigation';
+@import 'partials/main-navigation';
+@import 'partials/recipe-teaser';
 
 /* switching to border-box model for all elements */
 html {
