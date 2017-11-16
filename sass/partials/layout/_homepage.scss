@@ -1,0 +1,38 @@
+.pre-header {
+    padding: 2em;
+    border-bottom: 1px solid $color-line;
+
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.header {
+    padding: 2.5em;
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.promoted-content {    
+    padding: 2.5em;
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.pre-footer {
+    padding: 2em;
+    background-color: $color-old-lavender;
+
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.footer {
+    padding: 3.1em 0;
+    &__inner {
+        @include inner($extra-large);
+    }
+}

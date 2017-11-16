@@ -6,63 +6,120 @@
     <title>Umami - Homepage</title>
     <meta name="description" content="Umami - Homepage">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grillade.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Scope+One" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
-        <div class="pre-header">
-            <div class="inner grid">
-                <div class="search">
-                    <form>
-                        <label class="visually-hidden">Search in website</label>
-                        <input id="s" type="search" value="" placeholder="Search by keyword, ingredient, dish">
-                        <button type="submit">Search</button>
-                    </form>
-                </div>
-
-                <nav class="secondary-navigation">
-                    <ul>
-                        <li><a href="#" title="Go to Login page">Login</a></li>
-                    </ul>
-                </nav>
+    <div class="pre-header">
+        <div class="pre-header__inner grid">
+            <div class="search">
+                <form>
+                    <label for="search__input"><img src="img/search-icon.png" alt="search icon" /> <span class="visuallyhidden">Search in website</span></label>
+                    <input id="search__input" class="search__input" type="search" value="" placeholder="Search by keyword, ingredient, dish">
+                    <button type="submit" class="visuallyhidden">Search</button>
+                </form>
             </div>
-        </div>
-
-        <div class="grid">
-            <div class="site-branding">
-                <h1>Umami</h1>
-                <h2>Food magazine</h2>
-            </div>
-
-            <nav class="main-navigation">
-                <ul>
-                    <li><a href="#" title="Go to homepage" class="main-navigation__menu-item main-navigation__menu-item--active">Home</a></li>
-                    <li><a href="#" title="Go to features page" class="main-navigation__menu-item">Features</a></li>
-                    <li><a href="#" title="Go to recipes page" class="main-navigation__menu-item">Recipes</a></li>
-                    <li><a href="#" title="Go to magazine page" class="main-navigation__menu-item">Magazine</a></li>
+            
+            <nav class="navigation">
+                <ul class="navigation__items">
+                    <li class="navigation__item"><a href="#" title="Go to Login page" class="navigation__link">Login</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
-
-    <main id="main" role="main" class="pam">
-        <p>Yoo ch'ai lu dans les DNA que le Racing a encore perdu contre Oberschaeffolsheim. Verdammi et moi ch'avais donc parié deux knacks et une flammekueche. Ah so ? T'inquiète, ch'ai ramené du schpeck, du chambon, un kuglopf et du schnaps dans mon rucksack. Allez, s'guelt ! Wotch a kofee avec ton bibalaekaess et ta wurscht ? Yeuh non che suis au réchime, je ne mange plus que des Grumbeere light et che fais de la chym avec Chulien. Tiens, un rottznoz sur le comptoir.</p>
-        <div class="grid-3-small-2 has-gutter">
-            <div>lorem</div>
-            <div>elsass</div>
-            <div>ipsum</div>
-            <div>choucroute</div>
-            <div>knack</div>
+    </div>
+    
+    <header class="header">
+        <div class="header__inner grid">
+            <div class="site-branding">
+                <a class="site-branding__link" href="homepage.html">
+                    <img src="img/site-branding-umami-logo.png" alt="Umami - Food magazine" /> 
+                    <h1 class="visuallyhidden">Umami</h1>
+                    <h2 class="visuallyhidden">Food magazine</h2>
+                </a>
+            </div>
+            
+            <nav class="navigation navigation--main">
+                <ul class="navigation__items">
+                    <li class="navigation__item"><a href="#" title="Go to homepage" class="navigation__link navigation__link--active">Home</a></li>
+                    <li class="navigation__item"><a href="#" title="Go to features page" class="navigation__link">Features</a></li>
+                    <li class="navigation__item"><a href="#" title="Go to recipes page" class="navigation__link">Recipes</a></li>
+                    <li class="navigation__item"><a href="#" title="Go to magazine page" class="navigation__link">Magazine</a></li>
+                </ul>
+            </nav>
+            
         </div>
-        <p>Tu restes pour le lotto-owe ce soir, y'a baeckeoffe ? Yeuh non, merci vielmols mais che dois partir à la Coopé de Truchtersheim acheter des mänele et des rossbolla pour les gamins. Hopla tchao bissame ! Consectetur adipiscing elit amet elementum nullam bissame bredele Heineken picon bière gal sed risus, condimentum Verdammi ch'ai ac réchime météor barapli s'guelt quam, non Christkindelsmärik blottkopf, Carola tellus rucksack vielmols, Gal !</p>
-    </main>
-
-    <footer id="footer" role="contentinfo" class="pam">
-        Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal. gewurztraminer turpis, suspendisse commodo Oberschaeffolsheim ornare aliquam semper Miss Dahlias Mauris turpis sagittis kuglopf eleifend dignissim baeckeoffe geht's Richard Schirmeck mollis habitant schnaps ante et sit leo schpeck sit Salu bissame Salut bisamme varius quam. amet elementum nullam bissame bredele Heineken picon bière gal sed risus, condimentum Verdammi ch'ai ac réchime météor barapli s'guelt quam, non Christkindelsmärik blottkopf, Carola tellus rucksack vielmols, Gal !
+    </header>
+    
+    <div class="main">
+        <div class="promoted-content">
+            <div class="promoted-content__inner grid">
+                @todo Promoted content block
+            </div>
+        </div>
+        
+        <div class="month-issue">
+            <div class="month-issue__inner grid">
+                @todo This month's issue block
+            </div>
+        </div>
+        
+        <div class="recipes-links">
+            <div class="recipes-links__inner grid">
+                @todo Recipes links block
+            </div>
+        </div>
+        
+        <div class="recipes-list">
+            <div class="recipes-list__inner grid">
+                @todo Recipes list
+            </div>
+        </div>
+    </div>
+    
+    <div class="pre-footer">
+        <div class="pre-footer__inner grid has-gutter-xl">
+            <div class="site-description one-half">
+                <h2><img src="img/pre-footer-umami-logo.png" alt="Umami" /><span class="visuallyhidden">Umami</span></h2>
+                <p>Umami Publications are one of the tastiest UK publishers of food and lifestyle magazines.</p>
+                <p>Umami is hungry to maintain publications and websites of the highest standards, quality and integrity.</p>
+            </div>
+            
+            
+            <div class="navigation-list navigation-list--magazine">
+                <h2>The magazine</h2>
+                <ul class="navigation-list__items">
+                    <li class="navigation-list__item"><a href="#" title="Latest edition" class="navigation-list__link">Latest edition</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Where to buy" class="navigation-list__link">Where to buy</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Subscriptions" class="navigation-list__link">Subscriptions</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Back issues" class="navigation-list__link">Back issues</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Speak to us" class="navigation-list__link">Speak to us</a></li>
+                </ul>
+            </div>     
+            
+            <div class="navigation-list navigation-list--about-us">
+                <h2>About us</h2>
+                <ul class="navigation-list__items">
+                    <li class="navigation-list__item"><a href="#" title="About us" class="navigation-list__link">About us</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Our team" class="navigation-list__link">Our team</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Awards & accreditations" class="navigation-list__link">Awards & accreditations</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Other Umami publications" class="navigation-list__link">Other Umami publications</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Contact us" class="navigation-list__link">Contact us</a></li>
+                    <li class="navigation-list__item"><a href="#" title="Media enquiries" class="navigation-list__link">Media enquiries</a></li>
+                </ul>
+            </div>            
+            
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer__inner grid has-gutter-xl">
+            <div class="one-half"><strong>Umami Magazine & Umami Publications</strong> are purely fictional companies used for illustrative purposes only.</div>
+            <div><a href="#">Read more</a> about this theme</div>
+            <div>© Umami Publications 2017 Terms & Conditions <a href="#">Privacy Policy</a></div>
+        </div>        
     </footer>
 </body>
 </html>

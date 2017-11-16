@@ -89,8 +89,22 @@ Author's custom styles
 @import 'config/mixins';
 @import 'config/variables';
 @import 'utilities/helpers';
-@import 'partials/main-navigation';
 @import 'partials/recipe-teaser';
+
+// Pre-header
+@import 'partials/search';
+
+
+// Header
+@import 'partials/navigation';
+
+// Pre-footer
+@import 'partials/site-description';
+@import 'partials/navigation-list';
+
+// Layout
+@import 'partials/layout/homepage';
+
 
 /* switching to border-box model for all elements */
 html {
