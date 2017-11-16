@@ -1,13 +1,14 @@
-.main-navigation {
+.navigation {
+  text-align: right;
   font-size: 2.0rem; // equiv "20px"
   line-height: 1.2;
   
-  .main-navigation__item {
+  .navigation__item {
     display: inline-block;
     margin: 0 1em;
   } 
   
-  .main-navigation__link {
+  .navigation__link {
     color: $color-black;
     padding: 0.3em 0;
     text-decoration: none;

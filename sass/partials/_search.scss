@@ -1,0 +1,9 @@
+.search {
+    &__input {
+        border: 0px solid;    
+        margin-left: 0.5em;
+        &:focus {
+            outline: none;        
+        }
+    }
+}

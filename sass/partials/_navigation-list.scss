@@ -1,0 +1,29 @@
+.navigation-list {
+    
+    h2 {
+        color: #fff;
+    }
+    
+    // text-align: right;
+    // font-size: 2.0rem; // equiv "20px"
+    // line-height: 1.2;
+    
+    &__items {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;    
+    }
+    
+    
+    .navigation-list__link {
+        color: #fff;        
+        text-decoration: none;
+        
+        &:focus,
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
+    } 
+}
+        

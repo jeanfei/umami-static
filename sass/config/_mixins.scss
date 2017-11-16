@@ -30,3 +30,8 @@ $bp-aliases: (
         + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+
+@mixin inner($max-width) {
+  max-width: $max-width;
+  margin: 0 auto;
+}
