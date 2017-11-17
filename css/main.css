@@ -231,6 +231,24 @@ Author's custom styles
     max-width: 1200px;
     margin: 0 auto; }
 
+.month-issue {
+  padding: 2.5em; }
+  .month-issue__inner {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.recipes-links {
+  padding: 2.5em; }
+  .recipes-links__inner {
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.recipes-list {
+  padding: 2.5em; }
+  .recipes-list__inner {
+    max-width: 1200px;
+    margin: 0 auto; }
+
 .pre-footer {
   padding: 2em;
   background-color: #767775; }
