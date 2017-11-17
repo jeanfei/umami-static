@@ -21,6 +21,27 @@
     }
 }
 
+.month-issue {    
+    padding: 2.5em;
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.recipes-links {    
+    padding: 2.5em;
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
+.recipes-list {    
+    padding: 2.5em;
+    &__inner {
+        @include inner($extra-large);
+    }
+}
+
 .pre-footer {
     padding: 2em;
     background-color: $color-old-lavender;
