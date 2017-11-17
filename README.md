@@ -1,15 +1,39 @@
 # Umami - Static
 
 This repository provides sources (html / css) for Umami desgin.
-It should be re-used as a boilerplate for Contenta frontend consumers.
+It should be re-used to facilitate integration as components for Contenta frontend consumers.
 
 ## Getting Started
 
 ### Usage
 
-Open in your browser the index.html file.
+Open the index.html file or go to the demo on https://jeanfei.github.io/umami-static
 
-## Resources 
+### Requirements
+
+- node
+- npm
+
+### Install
+
+``` bash
+# Install dependencies
+$ npm install
+
+# Serve with hot reload + watch sass files
+$ npm run serve
+```
+
+### Dependencies
+
+- normalize.css : https://necolas.github.io/normalize.css/
+- grillade.css (minimalist grid library based on flexbox) : https://knacss.com/grillade/
+
+### Components
+
+Every components of the page has its styles into the sass/partials/[_compononent].scss.
+
+## Resources
 
 - Google Drive : https://drive.google.com/drive/folders/0B7MA3IYYh44bMzNsVXhKNGpZNDQ
 - The official design : https://www.drupal.org/node/2900720
